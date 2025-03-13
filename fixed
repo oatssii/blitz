@@ -1,8 +1,2 @@
- game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Hi sigma munchikins man";
-    Text = "loading..";
-    Duration = 3;
-})
-
 getgenv().gethui = function() return game.CoreGui end
 loadstring(game:HttpGet("https://you.whimper.xyz/blitz"))()
